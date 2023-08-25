@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.square {
+    background: lightseagreen;
+    height: 120px;
+    width: 120px;
+    padding: 16px;
+}
+
+#squareX {
+    display: inline-block;
+    margin: 32px 0 0 32px;
+}
+
+#squareY {
+    background: orange;
+    display: inline-block;
+}
+
+#squareZ {
+    margin-top: 16px;
+    position: relative;
+    background: pink;
+    margin-left: 16px;
+    position: absolute;
+    top: 8px;
+    left: 24px;
+    z-index: 3;
+}

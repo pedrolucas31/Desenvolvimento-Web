@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 06 Forms</title>
+    <style>
+        form {
+            width: 320px;
+        }
+
+        /* input {
+            width: 100%;
+        } */
+    </style>
+</head>
+<body>
+    <h1>Class Forms</h1>
+    <form method="get">
+        <label for="name">Name :</label>
+        <input type="text"
+        id="name"
+        name="nome"
+        placeholder="Digite seu nome" 
+        required
+        >
+        <button type="submit">
+            Enviar
+        </button>
+    </form>
+
+    <form method="get">
+        <fieldset>
+            <section>
+
+            
+            <legend>Login</legend>
+            
+            <label for="email">E-mail</label> <br>
+            <input type="email"
+            id="email"
+            name="email"
+            >
+        </section>
+
+        <section><label for="password">Password</label> <br>
+            <input type="password"
+            id="password"
+                name="password"
+            </section>
+            
+            <button>
+                Enviar
+            </button> <br>
+        </fieldset>
+        
+        <br>
+        <form method="get">
+            <input
+             type="number"
+             placeholder="Digite sua idade"
+             max="100"
+             min="0"
+             step="2"
+             >
+
+             <br><br>
+
+             <input type="datetime-local">
+
+             <br><br>
+
+             <input type="range"
+             min="0"
+             max="100"
+             step="5"
+             name="range"
+             >
+
+             <br><br>
+
+             <input
+              type="file"
+              accept=".pdf"
+              multiple
+             >
+             
+             <br><br>
+
+             <input type="color"
+             value="#ff0000"
+             >
+
+             <datalist id="group_Color_Theme">
+                <option value="#ff0000"></option>
+                <option value="#00ff00"></option>
+                <option value="#0000ff"></option>
+                <option value="#dd00ff"></option>
+                <option value="#00ddff"></option>
+             </datalist>
+
+             <br><br>
+             
+             <label for="">HTML</label>
+             <input type="checkbox"id="html">
+
+             <label for="">CSS</label>
+                <input type="checkbox"id= "css">
+
+             <br><br>
+             
+             <label for="yes">Sim</label>
+             <input type="radio"name="term"id="yes">
+
+             <label for="no">Não</label>
+             <input
+              type="radio"
+              name="term"
+              id="no"
+              >
+
+              <br><br>
+              
+              <label for="fruits"></label>
+              <select name="fruits" id="fruits">
+                <option value="manga">Manga</option>
+                <option value="acerola">Acerola</option>
+                <option value="abacaxi">Abacaxi</option>
+              </select>
+
+              <br><br>
+
+              <label for="">Observações</label>
+              <textarea name=""
+               id=""
+                cols="30"
+                 rows="20"
+                 maxlength="200"
+                 >
+                </textarea>
+
+             <br><br>
+             
+             <button>Enviar</button>
+        </form>
+    </form>
+</body>
+</html>

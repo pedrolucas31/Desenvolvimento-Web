@@ -1,0 +1,12 @@
+h1 {
+    color: orange;
+    font-weight: 400;
+    font-size: 32px;
+}
+h2 {
+    color: rgb(47, 140, 95);
+}
+
+p {
+    font-family: 'Roboto', sem serifa;
+}

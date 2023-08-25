@@ -1,0 +1,42 @@
+.container {
+    border: 1px solid black;
+    /* padding: 8px; */
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 80px;
+    width: 80px;
+    color: white;
+    padding: 8px;
+    font-size: 24px;
+}
+
+.square:nth-child(1) {
+    background-color: steelblue;
+    align-self: flex-end;
+}
+.square:nth-child(2) {
+    background-color: orange;
+    padding: 16px;
+    align-self: center;
+    order: 3;
+}
+.square:nth-child(3) {
+    background-color: teal;
+    padding: 24px;
+}
+.square:nth-child(4) {
+    background-color: lightcoral;
+    padding: 24px;
+}
+.square:nth-child(5) {
+    background-color: purple;
+    padding: 24px;
+}
+.square:nth-child(6) {
+    background-color: slategray;
+    padding: 24px;
+}
